@@ -1,0 +1,259 @@
+
+@import "../site/_variables";
+@import "../core/_variables";
+@import "../core/_mixins";
+
+@import (reference) "../core/_base";
+
+@import "../core/layout/_concepts";
+
+& {
+
+	@use-shadow: no;
+	@trigger-bg-color: @brand-primary;
+	@trigger-bg-color-active: @trigger-bg-color;
+	@trigger-bg-color-hover: darken(@brand-primary, 15%);
+	@trigger-stripes-color: #fff;
+	@trigger-stripes-color-active: white;
+	@trigger-stripes-color-hover: #fff;
+	@icon-width: 34px;
+	@icon-height: 34px;
+	@stripes-width: 20px;
+	@stripes-height: 2px;
+	@inner-gaps-size: 6px;
+	// Dropdown
+	@dropdown-bg-color: @trigger-bg-color;
+	@dropdown-hyperlink-color: white;
+	@dropdown-item-hover-color: @dropdown-bg-color;
+	@inner-grid-size: 0;
+	@outer-grid-size: 0;
+	// Calculated
+	@stripes-count: 3;
+	@stripes-gaps-count: (@stripes-count - 1);
+	@stripes-full-height: (@stripes-height * @stripes-count + @inner-gaps-size * @stripes-gaps-count);
+	@stripes-height-half: (@stripes-height / 2);
+	@stripes-width-half: (@stripes-width / 2);
+	@stripes-offset: (@stripes-height + @inner-gaps-size + (@stripes-height / 2));
+
+	.st-nav {
+
+		font-family: 'Work Sans';
+		font-size: 18px;
+		font-weight: 500;
+		color: @brand-primary;
+		margin-top: 10px;
+
+		@media (max-width: 1100px) {
+			position: absolute !important;
+			right: 64px;
+			top: 35px;
+
+			.st-nav-li {
+
+				max-height: calc(100%-129px);
+				overflow-y: scroll;
+			}
+		}
+
+		@media (max-width: 768px) {
+			& {
+				margin-top: 0;
+			}
+		}
+
+		> ul {
+			
+			> li {
+
+				> a {
+
+					
+				}
+
+				&:hover,
+				&.on,
+				// to be used when Wordpress
+				&.current-menu-item,
+				&.current-menu-parent,
+				&.current-menu-ancestor,
+				// When menu relationship is non-existent, but pages are in the same page branch
+				&.current-page-item,
+				&.current-page-parent,
+				&.current-page-ancestor,
+				// Happens in blog section
+				&.current_page_item,
+				&.current_page_parent,
+				&.current_page_ancestor {
+
+					> a {
+
+						
+					}
+				}
+			}
+		}
+
+			@media (min-width: @container-max-width) {
+				
+				.nav-li-trg {
+					display: none;
+			}
+		}
+
+		.st-nav-li {
+
+			@media (min-width: 1251px) {
+
+				> li {
+
+					margin-right: 53px;
+
+					&:last-child {
+						margin-right: 0;
+					}
+				}
+			}
+
+			@media (min-width: 1101px) {
+			
+				.menu-item-has-children {
+
+					position: relative;
+	
+					&:hover {
+	
+						ul {
+							
+							display: block;
+							background-color: #FFFFFF;
+							position: absolute;
+							padding: 18px;
+							border-radius: 5px;
+							margin: 0 auto;
+							left: 50%;
+							width: 200px;
+							top: 40px;
+							margin-left: -100px;
+	
+							a {
+	
+								color: @brand-primary;
+								font-size: 15px;
+								white-space: nowrap;
+	
+								&:hover {
+	
+									color: #3FC09A;
+								}
+							}
+
+							&:before {
+
+								position: absolute;
+								content: "";
+								left: 0;
+								right: 0;
+								top: -17px;
+								display: block;
+								margin: 0 auto;
+								width: 40px;
+								height: 36px;
+								background-size: 40px 36px;
+								background-image: url("../../images/icons/icon-1-sm_arrow_silver.svg");
+							}
+						}
+					}
+				
+					> a {
+					
+					position: relative;
+	
+					&:after {
+	
+						display: block;
+						position: absolute;
+						content: "";
+						background-image: url(../../images/icons/icon-1-tn_arrow_dark-blue.svg);
+						top: 0;
+						bottom: 0;
+						margin-top: 12px;
+						right: -14px;
+						background-size: 8px 5px;
+						width: 8px;
+						height: 5px;
+						}
+	
+					}
+				}
+			}
+
+			@media (min-width: 1250px) {
+
+				.menu-item-has-children > a {
+					
+					position: relative;
+	
+					&:after {
+
+						margin-top: 8px;
+					}
+				}
+			}
+
+			display: flex;
+
+			& > li > ul {
+				display: none;
+			}
+
+			@media (max-width: 1100px) {
+				& {
+					overflow-y: scroll;
+					background-color: #3FC09A;
+					position: fixed;
+					left: 0;
+					right: 0;
+					top: 206px;
+					flex-direction: column;
+					align-items: center;
+					
+					li,
+					li:first-child,
+					li:last-child {
+						margin-left: 0;
+						margin-right: 0;
+					}
+
+					li {
+						margin-bottom: 30px;
+
+						&:last-child {
+							margin-bottom: 0;
+						}
+					}
+
+					top: 130px;
+
+				}
+			}
+			
+		}
+	}
+
+	@media ( min-width: (@toggle-menu-from + 1) ) {
+		
+			
+	}
+
+	@media ( max-width: @toggle-menu-from ) {
+
+		@import (reference,multiple) "../core/icon/_icons";
+
+		.st-nav {
+
+			@import "../core/components/_site-navigation";
+
+			.toggler-trigger-make();
+		}
+	}
+}

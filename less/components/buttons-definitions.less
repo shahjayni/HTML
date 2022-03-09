@@ -1,0 +1,137 @@
+
+// = Typical props
+// padding, background-color, color, border, font, text-transform, letter-spacing, etc.
+// - Please register buttons in _extend-map.less
+
+
+// Brand Button
+
+.b-A-link {
+	
+	.this-link-color( #fff; );
+}
+
+// Brand Button
+
+.b-A {
+
+	@button-color: @brand-primary;
+	@button-hover-bg-color: @brand-primary;
+	@button-hover-color: @color;
+	@button-min-height: 40px;
+	@button-padding: 24px 42px 24px 44px;
+	white-space: nowrap;
+
+	border-radius: 5px;
+	position: relative;
+	z-index: 1;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: @button-min-height;
+	padding: @button-padding;
+	background-color: @brand-primary;
+	color: #fff;
+	font-size: unit(@font-size-num, px);
+	text-align: center;
+    font-weight: 600;
+	font-size: 25px;
+
+	&:after {
+
+		position: absolute;
+		top: -1px;
+		left: 50%;
+		right: 50%;
+		bottom: -1px;
+		opacity: 0;
+		background-color: @button-hover-bg-color;
+		z-index: -1;
+		transition: 0.5s all ease;
+		content: '';
+	}
+
+	// &:hover,
+	// &.hover {
+
+	//     &:after {
+
+	// 		transition: 0.5s all ease;
+	// 		left: 0;
+	// 		right: 0;
+	// 		opacity: 1;
+	//     }
+	// }
+
+	&:hover,
+	&.hover {
+
+		color: @brand-primary;
+		background-color: @brand-secondary;
+	}
+
+	// IE11 support
+	
+	.disabled() {
+
+		&:before {
+			
+			display: inline-block;
+			min-height: @min-height;
+			content: '';
+		}
+	}
+}
+
+.b-B {
+	&:extend( .b-A);
+	padding: 18px 25px 16px 25px;
+	font-size: 18px;
+	color: @brand-primary;
+	background-color: #ffffff;
+
+	&:hover {
+		background-color: #C5FF64;
+	}
+}
+
+.b-C {
+	&:extend( .b-B);
+	background-color: #C6FF6E;
+
+	&:hover {
+		text-decoration: none;
+		background-color: #8FE000;
+	}
+}
+
+.b-D {
+	&:extend( .b-B);
+	background-color: transparent;
+	padding: 18px 0;
+
+	&:hover {
+		color: #C6FF6E;
+		text-decoration: underline;
+	}
+}
+
+.b-E {
+	&:extend( .b-A );
+
+	color: @brand-primary;
+	background-color: #91DE29;
+
+	&:hover {
+		background-color: #3EC09A;
+	}
+}
+
+.b-F {
+	&:extend( .b-E );
+	background-color: #C6FF6E;
+	width: 305px;
+	&:hover {
+		background-color: #3FC09A;
+	}
+}

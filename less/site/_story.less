@@ -1,0 +1,249 @@
+
+// - shortcodes work here, preliminary info
+// - & will become .article-body &
+// ! when I extend a class from within this file, it will duplicate story in the selector, eg. .story .story
+
+// Headings
+
+// all
+.h {
+	
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	
+	.not-first-margin-top(1em);
+
+	+ p {
+
+		margin-top: 0;
+	}
+}
+
+h1 {
+	
+	
+}
+
+h2 {
+	
+	
+}
+
+h3 {
+	
+	
+}
+
+h4 {
+	
+	
+}
+
+h5 {
+	
+	
+}
+
+h6 {
+	
+	
+}
+
+// Paragraphs
+
+p {
+	
+	.not-first-margin-top(@paragraph-gap);
+}
+
+// Lists
+
+ul,
+ol {
+
+	.not-first-margin-top(1em);
+
+	// - nested lists should have top margin, even if they are :first-child
+	ul,
+	ol {
+
+		// - value should match li's top margin
+		margin-top: 5px;
+	}
+}
+
+li {
+	
+	.not-first-margin-top(5, em);
+}
+
+ul {
+	
+	list-style: disc;
+	margin-left: 20px;
+	
+	&:not([class^="l-"]) {
+		
+		> li {
+			
+			
+		}	
+	}
+}
+
+ol {
+	
+	list-style: decimal;
+	margin-left: 2em;
+}
+
+// Image
+
+img {
+	
+	
+}
+
+// Hyperlinks
+
+a,
+:link,
+:visited,
+[href^="mailto"] {
+	
+	color: #3FC09A;
+	text-decoration: underline;
+}
+
+a:hover {
+
+	text-decoration: none;
+}
+
+[href^="mailto"] {
+	
+	
+}
+
+// Table
+
+table {
+	
+	
+}
+
+// Form
+
+form {
+
+	margin: 1.5em 0;
+}
+
+// Blockquote
+
+blockquote {
+
+	margin: 1em 0;
+}
+
+// Highlight
+
+.hlt {
+	
+	color: @brand-primary;
+}
+
+// WP Specific
+
+figure.i-grph {
+	
+	border: none;
+	background: transparent;
+	
+	img {
+		
+		margin: 8px 0 0;
+	}
+}
+
+figure.i-grph-right,
+figure.i-grph-left,
+figure.i-grph-center,
+.wp-block-image .aligncenter,
+.wp-block-image .alignleft,
+.wp-block-image .alignright,
+.wp-block-image.is-resized {
+    
+    display: table;
+}
+
+.wp-image-2 {
+
+	border-radius: 50%;
+	border: 5px solid #91DE29;
+}
+
+figure.i-grph-right,
+.alignright {
+
+	float: right;
+	margin: 0 0 30px 30px;
+}
+
+figure.i-grph-left,
+.alignleft {
+
+	float: left;
+	margin: 0 30px 30px 0;
+}
+
+figure.i-grph-center,
+.aligncenter {
+
+	margin: 0 auto;
+}
+
+// WP Block Editor
+
+.has-text-align-right {
+	
+    text-align: right;
+}
+
+.has-text-align-left {
+	
+    text-align: left;
+}
+
+.has-text-align-center {
+	
+	text-align: center;
+}
+
+// Misc
+
+> :first-child {
+	
+	margin-top: 0 !important;
+}
+
+> :last-child {
+	
+	margin-bottom: 0 !important;
+}
+
+@media ( min-width: 668px ) {
+
+	// 2 column list
+	
+	.l-B {
+	
+		columns: 2;
+		column-gap: 30px;
+	}
+}

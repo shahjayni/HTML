@@ -1,0 +1,235 @@
+@import "../core/icon/_mixins";
+
+// 
+
+.ic-A {
+
+	.icon-inside(62px; 33px; {
+		
+		font-size: 62px;
+		font-family: Icomoon;
+		content: "\e916";
+
+	};);
+
+}
+
+// Tiny Listing Earth
+
+.ic-B {
+
+	.icon-outside( 20px; 20px; 9px; left; {
+
+		.bg-img( 'icons', 'icon-1-tiny_earth_fc', single, no, 50% 50%, 'svg', '../../' );
+
+	};);
+}
+
+// Footer Social Media Links
+
+.ic-C {
+
+	.icon-inside(40px; 40px; {
+		
+		font-size: 39px;
+		font-family: Icomoon;
+		content: attr(data-icon);
+		
+
+	};);
+}
+
+// Footer Quick Contact
+.ic-D {
+
+	.icon-inside(81px; 81px; {
+
+		font-family: Icomoon;
+
+	};);
+}
+
+// Site Footer Twitter
+
+.ic-E {
+
+	.icon-inline( after; 43px 35px; {
+
+		font-family: 'Icomoon';
+		content: '\e912';
+		vertical-align: top;
+		color: #C6FF6E;
+		
+
+	}; 15px; );
+}
+
+// Main Page Navigation Next Arrow
+
+.ic-F {
+
+	position: relative;
+
+	.icon-outside( 8px; 15px; 12px; right; {
+		
+		position: absolute;
+		top: 8px;
+		right: 0;
+		margin: 0;
+		font-family: Icomoon;
+		content: '\e900';
+		
+
+	};);
+}
+
+// Main Page Navigation Prev Arrow
+
+.ic-G {
+
+	position: relative;
+
+	.icon-outside( 8px; 15px; 12px; left; {
+		
+		position: absolute;
+		top: 8px;
+		left: 0;
+		margin: 0;
+		font-family: Icomoon;
+		content: '\e901';
+		
+
+	};);
+}
+
+.ic-H {
+
+	.icon-outside( 257px; 257px; 12px; top; {
+		
+		background-image: url("../../images/icons/icon-6-md_circle_aquamarine.svg");
+		background-size: 257px;
+		font-size: 122px;
+		font-family: Icomoon;
+		content: "\e946";
+
+	};);
+}
+
+.ic-I {
+
+	position: relative;
+
+	.icon-outside( 77px; 29px; 0; bottom; {
+		
+		position: absolute;
+		top: 34px;
+		right: 0;
+		left: 0;
+		display: block;
+		margin: 0 auto;
+		font-weight: 900;
+		font-family: Icomoon;
+		content: '\e906';
+		
+
+	};);
+}
+
+.ic-J {
+
+	position: relative;
+
+	.icon-outside( 13px; 13px; 20px; left; {
+		
+		width: 13px;
+		height: 13px;
+		line-height: 13px;
+		font-family: 'Icomoon';
+		content: '\e913';
+		color: #022334;
+		
+
+	};);
+}
+
+.ic-K {
+
+	position: relative;
+
+	.icon-outside( 13px; 13px; 20px; left; {
+		
+		width: 13px;
+		height: 13px;
+		line-height: 13px;
+		font-family: 'Icomoon';
+		content: '\e914';
+		color: #022334;
+		
+
+	};);
+
+}
+
+// Outside
+.ic-outside {
+
+	.icon-outside( 18px; 21px; 5px; right; {
+		
+		// Background Image
+		//top: -2px;
+		//.bg-img( 'icons', 'icon1_lock-darkgray', single, no, 50% 50%, 'png', '../../' );
+
+	};);
+}
+
+// Inside
+.ic-inside {
+
+	.icon-inside(30px; 35px; {
+		
+		// Background Image
+		//.bg-img( 'icons', 'icon1_search-maroon', single, no, 50% 50%, 'png', '../../' );
+		//background-size: auto auto;
+		
+		// CSS Arrow
+		//.arrow-border( upwards; 15px; 10px; #fff; );
+
+	};);
+}
+
+// Inline
+.ic-inline {
+	
+	.icon-inline( before; 36px 36px; {
+		
+	}; 5px; );
+}
+
+// Text Flow
+.ic-text {
+
+	//font-size: 0;
+	//line-height: 0;
+
+	.icon-inline(before; auto; {
+
+		//font-family: 'Font Awesome';
+		//top: -2px;
+
+	}; 0; );
+}
+
+
+
+// Iconsets
+
+// Footer Quick Contact
+.ic-set-A {
+
+	@classes: ~'qc-call > *', ~'qc-chat > *';
+	//@content: icon2_phone-white, icon2_email-white;
+	@content: '\e904', '\e905';
+	color: #8FE000;
+
+	.iconset( @classes; @content; content; ); // 'bg' or 'content'
+}

@@ -1,0 +1,182 @@
+// Clearfix
+
+.gr,
+.inwards,
+.box {
+	&:extend( .cf-always all );
+}
+
+
+.some-class {
+	&:extend( .cf-quick all );
+}
+
+// Underline
+
+.some-class {
+	//&:extend( .u all );
+}
+
+.some-class {
+	//&:extend( .u-alt all );
+}
+
+.st-nav a {
+	&:extend( .u-never all );
+}
+
+// Listings
+
+.l-A li {
+	&:extend( .ic-B all );
+}
+
+// Icons
+
+.st-ft .l-sml a {
+	&:extend( .ic-C all );
+}
+
+.w-qc-menu a {
+	&:extend( .ic-D all );
+}
+
+.widget_rotatingtweets_widget .w-t {
+	&:extend( .ic-E all );
+}
+
+.pg-nav-A .nxt a,
+.sldr-A .slick-next,
+.sldr-C .slick-next {
+	&:extend( .ic-F all );
+}
+
+.pg-nav-A .prv a,
+.sldr-A .slick-prev,
+.sldr-C .slick-prev {
+	&:extend( .ic-G all );
+}
+
+.site-header-right-top .tel a{
+	&:extend( .ic-J all );
+
+}
+
+.site-header-right-top .email a{
+	&:extend( .ic-K all );
+
+}
+
+.w-qc-menu li {
+	&:extend( .ic-set-A all );
+}
+
+.l-D1 .i {
+
+	&:extend( .ic-H all );
+
+}
+
+.l-D1 .t {
+
+	&:extend( .ic-I all );
+
+}
+
+
+// Buttons
+
+.nav-A a,
+[type=submit],
+.pg-nav-A .bk a,
+.pg-nav-B .mr a {
+	&:extend( .b-A all );
+}
+
+.nav-B a {
+	&:extend( .b-B all );
+}
+
+.nav-C a {
+	&:extend( .b-C all );
+}
+
+.nav-D a {
+	&:extend( .b-D all);
+}
+
+.nav-E a {
+	&:extend( .b-E all );
+}
+
+.nav-F a {
+	&:extend( .b-F all );
+
+}
+
+.nav-G a {
+	&:extend( .b-A all );
+
+	&:hover {
+		
+		background-color:#91DE29;
+		color: @brand-primary;
+	}
+}
+
+.nav-H {
+
+	& {
+		position: absolute;
+		z-index: 1;
+		left: 0;
+		right: 0;
+		bottom: -35px;
+		margin: 0 auto;
+	}
+
+	&,
+	svg {
+
+		width: 107px;
+		height: 107px;
+	}
+
+	@media (max-width: 1100px) {
+		
+		display: none;
+	}
+	
+
+}
+
+.b-mh,
+.b-A,
+.b-B,
+.b-C,
+.b-D,
+.b-E,
+.b-F {
+	&:extend( .button-structure all );
+}
+
+
+// Heading Green
+.l-A .l-hd {
+	&:extend( .hd-A all );
+}
+
+
+.l-B {
+	&:extend( .hd-B all );
+}
+
+.l-D {
+	&:extend( .hd-C all );
+}
+
+// blockquote
+
+.bq-A {
+	&:extend( .bq-A all );
+}

@@ -1,0 +1,150 @@
+
+// Base Colors
+
+@brand-primary: #022334;
+@brand-secondary: #C6FF6E; // salmon
+@brand-info: #5bc0de;
+@brand-success: #5cb85c;
+@brand-warning: #f0ad4e;
+@brand-danger: #d9534f;
+
+@blacks: #000;
+@grays: #ebecec;
+
+
+
+// Typography
+
+@use-custom-font: no; // whether the main font will be a custom font
+
+@font-weight: 400;
+@font-size-num: 18;
+@line-height-num: 28;
+@font-size-increase-to: 1.25;
+@font-size-decrease-to: .85;
+
+@font-family: 'Work Sans', @font-family-sans-serif;
+@font-family-alt: @font-family;
+
+@paragraph-gap: 15px;
+
+// Headings
+
+@font-size-h1-num: floor(@font-size-num * 2);
+@font-size-h2-num: floor(@font-size-num * 1.85);
+@font-size-h3-num: ceil(@font-size-num * 1.7);
+@font-size-h4-num: ceil(@font-size-num * 1.25);
+@font-size-h5-num: ceil(@font-size-num * 1.15);
+@font-size-h6-num: @font-size-num;
+
+@headings-font-family: @font-family;
+@headings-font-weight: 700; // numeric value
+@headings-line-height: 1.3;
+
+
+// Palette (base BODY context)
+
+@bg-color: #fff;
+@color: #000;
+@email-color: @color;
+@bg-image: none; // file title (quoted string), excluding extension
+@bg-image-format: none;
+@text-selection-bg-color: @brand-primary;
+@text-selection-color: #fff;
+
+// Links
+
+@link-color: @brand-primary;
+@link-color-visited: inherit;
+@link-hover-color: darken(@link-color, 15%);
+
+// Headings
+
+@headings-color: inherit; // 'inherit' is recommended
+
+// Accessories
+
+@hr-color: @brand-primary;
+
+
+// Input
+
+// Style
+
+@input-bg-color: #EBECEC;
+@input-border-color: @color;
+@input-border-negative-color: #fff; // used for custom select list item hover
+@input-color: @color;
+@input-placeholder-focus-color:	40%; // use percentages or actual color for placeholder focus; higher percentages might lead to 'white'
+@input-label-placeholder-color:	@input-color; // this is for the '.input-placeholder'
+@input-controller-bg-color: @input-border-color; // trigger's bg color for a custom select list
+
+// Layout (in pixels)
+
+@input-field-gutter: 20; // gap size between form fields
+@input-font-size: @font-size-num;
+@input-outer-height: 65;
+@input-padding-x: 20; // only padding, border is not counted in
+@input-border-size: 0;
+@input-border-radius: 5;
+@input-controller-arrow-width: @input-font-size;
+@input-controller-arrow-height:	(@input-controller-arrow-width / 2);
+@input-controller-arrow-img: none;
+@input-controller-arrow-img-alt: none;
+
+// Layout
+
+@gutter: 15px;
+@container-max-width: 1242px; // excluding container gutter
+@container-gutter: @gutter;
+
+
+// Responsive Design
+
+@is-responsive: yes;
+@toggle-menu-from: 1100px;
+// drop down menu available
+@main-nav-dropdown-delay-in: .05s;
+@main-nav-dropdown-delay-out: 0s;
+
+
+// Miscellaneous
+
+@css-reset-strict: yes;
+
+// Partner
+@partner: none;
+@partner-footnote-prepos: no; // add 'by' preposition
+@partner-footnote-separator: yes; // use 'fence' separator
+
+// Browser Support
+
+@lowest-ie-version: 11;
+
+// Modules Loader
+
+@layout: layout;
+@forms: forms;
+@icons: icons;
+// # how to test WP components when this is 'none'? - use precompiled default WP CSS, or compile site WP separately
+@wordpress: none;
+
+@palette-inside: yes;
+@use-vendor-prefixes: yes;
+
+// Extended
+
+@bg-color-hover: @bg-color;
+@color-hover: @color;
+
+@input-label-placeholder-color:	@input-color; // when XHTML placeholder has its own color
+@any-border-color: @color;
+
+@buttonA-border-color: @brand-primary;
+@buttonA-bg-color: green;
+@buttonA-color: #fff;
+
+// Icons
+
+@icon-width: 16px;
+@icon-height: 16px;

@@ -1,0 +1,562 @@
+# Changelog
+
+## 0.1 - 2022-02-01T07:35:40+00:00 GMT
+
+### Added
+
+1. css/editor-style.concat.css
+2. css/wp-editor-styles.css
+3. css/styles.css
+4. css/wp-editor-styles.concat.css
+5. css/components/site-footer.css
+6. css/components/classes.css
+7. css/components/site-base.css
+8. css/components/site-layout.css
+9. css/components/site-header.css
+10. css/components/site-navigation.css
+11. css/components/story.css
+12. css/components/buttons.css
+13. css/components/grids.css
+14. css/components/fonts.css
+15. css/components/components.css
+16. css/components/icons.css
+17. css/components/site-forms.css
+18. css/styles.min.css
+19. css/editor-style.css
+20. images/accessories/md-green-dotted-circle-bg.png
+21. images/accessories/md-white-dotted-circle-bg.png
+22. images/accessories/sm-green-dotted-circle-bg.png
+23. images/accessories/tn-blue-dotted-circle-bg.png
+24. images/accessories/lg-green-dotted-circle-bg.png
+25. images/accessories/md-sm-green-dotted-circle-bg.png
+26. images/accessories/lg-grey-map-bg.png
+27. images/pictures/pic-md_tommy.jpg
+28. images/pictures/pic-md_clare-suttie .jpg
+29. images/pictures/pic-bn_carrers.jpg
+30. images/pictures/pic-bn_bow-wow-meow-story.jpg
+31. images/pictures/pic-bn_atlas.jpg
+32. images/pictures/pic-bn_client-stories.jpg
+33. images/pictures/pic-bn_fixed-price.jpg
+34. images/pictures/pic-bn_cookie-policy.jpg
+35. images/pictures/pic-bn_newsletters.jpg
+36. images/pictures/pic-bn_customer-statisfaction.jpg
+37. images/pictures/pic-md_charlie-reston.jpg
+38. images/pictures/pic-bn_quote.jpg
+39. images/pictures/pic-bn_testimonials.jpg
+40. images/pictures/pic-md_claude.jpg
+41. images/pictures/pic-bn_press-enquires.jpg
+42. images/pictures/pic-bn_translations.jpg
+43. images/pictures/pic-bn_team.jpg
+44. images/pictures/pic-bn_our-services.jpg
+45. images/pictures/pic-lg_atlas.jpg
+46. images/pictures/pic-md_chickens.jpg
+47. images/pictures/pic-bn_community.jpg
+48. images/pictures/pic-md_pip.jpg
+49. images/pictures/pic-bn_privacy-policy.jpg
+50. images/pictures/pic-bn_events.jpg
+51. images/pictures/pic-bn_subtitles.jpg
+52. images/pictures/pic-bn_about.jpg
+53. images/pictures/pic-bn_sectors.jpg
+54. images/pictures/pic-md_joanna-maciejewska.jpg
+55. images/pictures/pic-bn_claire-morgan.jpg
+56. images/pictures/pic-bn_terms.jpg
+57. images/pictures/pic-bn_resources.jpg
+58. images/pictures/pic-md_jim-hearn.jpg
+59. images/pictures/pic-md_stefania-orlotti.jpg
+60. images/pictures/pic-bn_bonnie.jpg
+61. images/pictures/pic-bn_quality.jpg
+62. images/pictures/pic-md_james-martin.jpg
+63. images/pictures/pic-bn_price-calculator.jpg
+64. images/pictures/pic-md_anna-davis.jpg
+65. images/pictures/pic-md_shadow.jpg
+66. images/pictures/pic-md_clare-suttie.jpg
+67. images/pictures/pic-bn_pets.jpg
+68. images/pictures/pic-md_advertising_circle.jpg
+69. images/logos/logo-sm_living-wage.png
+70. images/logos/logo-sm_iso-9001.png
+71. images/logos/logo-sm_crystal-palace.png
+72. images/logos/logo-sm_trustpilot.png
+73. images/logos/logo-sm_atc.png
+74. images/logos/logo-sm_iti-corp.png
+75. images/logos/logo-lg_atlas_fullcolor.svg
+76. images/logos/logo-sm_doha.png
+77. images/logos/logo-sm_nhs.png
+78. images/logos/logo-sm_aviva.png
+79. images/logos/logo-sm_book-trust.png
+80. images/logos/logo-sm_alzeimers-society.png
+81. images/logos/logo-sm_amazon.png
+82. images/logos/logo-sm_siscog.png
+83. images/logos/logo-sm_ciep.png
+84. images/logos/logo-sm_boot-bananas.png
+85. images/logos/logo-sm_popdance.png
+86. images/logos/logo-sm_linkee.png
+87. images/logos/logo-sm_holy-lama-naturals.png
+88. images/logos/logo-sm_iso-17100.png
+89. images/logos/logo-sm_employer-plus.png
+90. images/logos/logo-sm_bow-wow-meow.png
+91. images/logos/logo-sm_ vinotopia.png
+92. images/logos/logo-sm_joanne-and-eduardo.png
+93. images/logos/logo-sm_bbc.png
+94. images/logos/logo-sm_chamber-member.png
+95. images/icons/icon-4-sm_ facebook_green.svg
+96. images/icons/icon-4-sm_ instagram_green.svg
+97. images/icons/icon-4-sm_ twitter_dark-blue.svg
+98. images/icons/icon-4-sm_ twitter_aquamarine.svg
+99. images/icons/icon-3-sm_transcription_white.svg
+100. images/icons/icon-3-sm_proofreading_dark-blue.svg
+101. images/icons/icon-3-sm_editorial-services_dark-blue.svg
+102. images/icons/icon-3-sm_subtitling_white.svg
+103. images/icons/icon-3-sm_advertising_dark-blue.svg
+104. images/icons/icon-3-sm_pointer_white.svg
+105. images/icons/icon-3-sm_typesetting_white.svg
+106. images/icons/icon-3-sm_technical-translations_dark-blue.svg
+107. images/icons/icon-3-sm_interpreting_dark-blue.svg
+108. images/icons/icon-3-sm_deaf_dark-blue.svg
+109. images/icons/icon-1-tiny_earth.svg
+110. images/icons/icon-3-sm_car_white.svg
+111. images/icons/icon-2-sm_qoute_fullcolor.svg
+112. images/icons/icon-5-sm_ call_green.svg
+113. images/icons/icon-3-sm_translation_dark-blue.svg
+114. images/icons/icon-3-sm_education_dark-blue.svg
+115. images/icons/icon-4-sm_ linkedIn_dark-blue.svg
+116. images/icons/icon-4-sm_ linkedin_aquamarine.svg
+117. images/icons/icon-4-sm_ youtube_dark-blue.svg
+118. images/icons/icon-5-sm_ chat_green.svg
+119. images/icons/icon-3-sm_legal_dark-blue.svg
+120. images/icons/icon-4-sm_ youtube_green.svg
+121. images/icons/icon-3-sm_healthcare_dark-blue.svg
+122. images/icons/icon-4-sm_ linkedIn_green.svg
+123. images/icons/icon-1-md_earth.svg
+124. images/icons/icon-3-sm_accountancy_dark-blue.svg
+125. images/icons/icon-3-sm_proofreading_white.svg
+126. images/icons/icon-3-sm_transcription_dark-blue.svg
+127. images/icons/icon-2-sm_calculator_fullcolor.svg
+128. images/icons/icon-3-sm_subtitling_dark-blue.svg
+129. images/icons/icon-3-sm_typesetting_dark-blue.svg
+130. images/icons/icon-2-sm_price-transition_fullcolor.svg
+131. images/icons/icon-3-sm_interpreting_white.svg
+132. images/icons/icon-3-sm_train_white.svg
+133. images/icons/icon-3-sm_studio-work_dark-blue.svg
+134. images/icons/icon-4-sm_ facebook_aquamarine.svg
+135. images/icons/icon-3-sm_cv-clinic_dark-blue.svg
+136. images/icons/icon-4-sm_ instagram_dark-blue.svg
+137. images/icons/icon-4-sm_ twitter_green.svg
+138. images/icons/icon-3-sm_translation_white.svg
+139. images/icons/icon-4-sm_ facebook_dark-blue.svg
+140. images/icons/icon-5-md_ pets_dark-blue.svg
+141. images/icons/icon-3-sm_blind_dark-blue.svg
+142. prepros.config
+143. !build/release-map.csv
+144. !build/root-release-map.csv
+
+### Modified
+
+1. less/site/_variables.less
+2. sitemap-wp.txt
+3. !signature
+4. sitemap.txt
+
+## 0.2 - 2022-02-03T04:45:27+00:00 GMT
+
+### Added
+
+1. in-house.html
+2. meet-the-team-inner.html
+3. client-stories-inner.html
+4. supplier-application.html
+5. blog.html
+6. price-calculator.html
+7. work-as-a-placement.html
+8. sectors-inner.html
+9. testimonials.html
+10. about.html
+11. privacy-policy.html
+12. get-a-quote.html
+13. contact.html
+14. meet-our-pets.html
+15. images/logos/logo-lg_atlas.png
+16. images/logos/logo-sm_vinotopia.png
+17. sectors.html
+18. about-atlas.html
+19. sitemap.html
+20. about-this-site.html
+21. translation.html
+22. site-elements/forms/subscribe-to-our-blog.html
+23. work-with-us.html
+24. newsletter.html
+25. 404.html
+26. supplier-faqs.html
+27. press-enquiries.html
+28. timeout.html
+29. placement-application.html
+30. meet-the-team.html
+31. resources.html
+32. translation-and-service-information-sheets-for-clients.html
+33. cookie-policy.html
+34. client-faqs.html
+35. customer-satisfaction.html
+36. fixed-price-bundle.html
+37. quality-control.html
+38. project-management.html
+39. our-community.html
+40. quality-standards.html
+41. courses-for-linguists.html
+42. work-as-a-freelancer.html
+43. client-stories.html
+44. services.html
+45. events.html
+46. terms-and-conditions.html
+47. language.html
+48. fonts/worksans-regular.woff
+49. fonts/worksans-medium.woff2
+50. fonts/worksans-regular.woff2
+51. fonts/worksans-semibold.woff2
+52. fonts/worksans-medium.woff
+53. fonts/worksans-semibold.woff
+54. fonts/gotham-medium-webfont.woff
+55. fonts/gotham-medium-webfont.woff2
+56. !build/release-map.csv
+57. languages.html
+58. blog-inner.html
+59. services-inner.html
+
+### Modified
+
+1. home.html
+2. css/editor-style.concat.css
+3. css/wp-editor-styles.css
+4. css/wp-editor-styles.concat.css
+5. css/components/site-base.css
+6. css/components/site-layout.css
+7. css/components/site-header.css
+8. css/components/site-navigation.css
+9. css/components/story.css
+10. css/components/buttons.css
+11. css/components/fonts.css
+12. css/components/components.css
+13. css/components/site-forms.css
+14. css/styles.min.css
+15. css/editor-style.css
+16. less/_extend-map.less
+17. less/components/site-header.less
+18. less/components/fonts.less
+19. less/components/site-layout.less
+20. less/components/site-navigation.less
+21. less/site/_variables.less
+22. site-elements/site-header.html
+23. site-elements/site-footer.html
+24. site-elements/site-banner.html
+25. site-elements/site-navigation.html
+26. sitemap-wp.txt
+27. !signature
+28. sitemap.txt
+
+### Excluded
+
+1. !build/root-release-map.csv
+
+### Removed
+
+1. images/logos/logo-sm_ vinotopia.png
+
+## 0.4 - 2022-03-02T13:01:14+00:00 GMT
+
+### Added
+
+1. css/plugins/slick.less
+2. css/plugins/slick.min.css
+3. css/components/slick.css
+4. css/components/site-banner.css
+5. less/components/site-banner.less
+6. less/components/slick.less
+7. images/accessories/lg-light-green-map-bg.png
+8. images/accessories/md-blue-dotted-circle-bg.png
+9. images/pictures/pic-md_tommy.png
+10. images/pictures/pic-md_community.jpg
+11. images/pictures/pic-bn_services-inner.jpg
+12. images/pictures/pic-lg_fixed-price.jpg
+13. images/pictures/pic-bn_contact.jpg
+14. images/pictures/pic-lg_newsletters.jpg
+15. images/pictures/pic-lg_events.jpg
+16. images/pictures/pic-lg_community.jpg
+17. images/pictures/pic-bn_team-inner.jpg
+18. images/pictures/pic-md_quote.jpg
+19. images/pictures/pic-md_british-council.jpg
+20. images/pictures/pic-md_video-thumb.jpg
+21. images/pictures/pic-lg_team.jpg
+22. images/pictures/pic-md_atlas.jpg
+23. images/pictures/pic-lg_about.jpg
+24. images/pictures/pic-md_quality.jpg
+25. images/pictures/pic-md_price-calculator.jpg
+26. images/pictures/pic-md_charlie-reston.png
+27. images/pictures/pic-thumb_post-1.jpg
+28. images/pictures/pic-lg_claire-morgan.jpg
+29. images/pictures/pic-md_claude.png
+30. images/pictures/pic-thumb_post-2.jpg
+31. images/pictures/pic-bn_client-stories-inner.jpg
+32. images/pictures/pic-lg_team-inner.jpg
+33. images/pictures/pic-md_chickens.png
+34. images/pictures/pic-lg_price-calculator.jpg
+35. images/pictures/pic-md_about.jpg
+36. images/pictures/pic-md_customer-statisfaction.jpg
+37. images/pictures/pic-thumb_post-3.jpg
+38. images/pictures/pic-md_clare-suttie-team.png
+39. images/pictures/pic-md_events.jpg
+40. images/pictures/pic-lg_quality.jpg
+41. images/pictures/pic-md_application.jpg
+42. images/pictures/pic-md_cookie-policy.jpg
+43. images/pictures/pic-lg_testimonials.jpg
+44. images/pictures/pic-md_pip.png
+45. images/pictures/pic-md_team-inner.jpg
+46. images/pictures/pic-lg_quote.jpg
+47. images/pictures/pic-lg_our-services.jpg
+48. images/pictures/pic-md_pets.jpg
+49. images/pictures/pic-lg_translations.jpg
+50. images/pictures/pic-lg_application.jpg
+51. images/pictures/pic-md_our-services.jpg
+52. images/pictures/pic-lg_pets.jpg
+53. images/pictures/pic-md_joanna-maciejewska.png
+54. images/pictures/pic-md_sectors.jpg
+55. images/pictures/pic-md_translations.jpg
+56. images/pictures/pic-lg_press-enquires.jpg
+57. images/pictures/pic-md_testimonials.jpg
+58. images/pictures/pic-md_privacy-policy.jpg
+59. images/pictures/pic-md_bonnie.png
+60. images/pictures/pic-md_jim-hearn.png
+61. images/pictures/pic-bn_application.jpg
+62. images/pictures/pic-lg_contact.jpg
+63. images/pictures/pic-md_press-enquires.jpg
+64. images/pictures/pic-lg_customer-statisfaction.jpg
+65. images/pictures/pic-md_stefania-orlotti.png
+66. images/pictures/pic-lg_privacy-policy.jpg
+67. images/pictures/pic-lg_carrers.jpg
+68. images/pictures/pic-md_client-stories-inner.jpg
+69. images/pictures/pic-bn_events-vid.jpg
+70. images/pictures/pic-md_terms.jpg
+71. images/pictures/pic-lg_video-thumb.jpg
+72. images/pictures/pic-lg_services-inner.jpg
+73. images/pictures/pic-md_claire-morgan.jpg
+74. images/pictures/pic-md_james-martin.png
+75. images/pictures/pic-md_events-vid.jpg
+76. images/pictures/pic-lg_sectors.jpg
+77. images/pictures/pic-md_team.jpg
+78. images/pictures/pic-lg_client-stories.jpg
+79. images/pictures/pic-lg_terms.jpg
+80. images/pictures/pic-md_fixed-price.jpg
+81. images/pictures/pic-md_anna-davis.png
+82. images/pictures/pic-bn_video-thumb.jpg
+83. images/pictures/pic-md_newsletters.jpg
+84. images/pictures/pic-lg_client-stories-inner.jpg
+85. images/pictures/pic-lg_cookie-policy.jpg
+86. images/pictures/pic-md_shadow.png
+87. images/pictures/pic-md_client-stories.jpg
+88. images/pictures/pic-md_clare-suttie.png
+89. images/pictures/pic-lg_resources.jpg
+90. images/pictures/pic-md_contact.jpg
+91. images/pictures/pic-md_services-inner.jpg
+92. images/pictures/pic-lg_events-vid.jpg
+93. images/pictures/pic-md_advertising_circle.png
+94. images/pictures/pic-md_resources.jpg
+95. images/pictures/pic-md_carrers.jpg
+96. images/logos/logo-sm_watford-expo.png
+97. images/logos/logo-sm_interlink.png
+98. images/logos/logo-sm_big-buzz.png
+99. images/logos/logo-sm_3-expo.png
+100. images/logos/logo-sm_2-expo.png
+101. images/logos/logo-sm_mustard.png
+102. images/logos/logo-sm_hertfordshire.png
+103. images/logos/logo-sm_museum.png
+104. images/logos/logo-sm_jelly.png
+105. images/logos/logo-sm_buzz.png
+106. images/logos/logo-sm_welwyn.png
+107. images/logos/logo-sm_albans.png
+108. images/logos/logo-md_iti-conference.png
+109. images/logos/logo-lg_atlas-light.png
+110. images/logos/logo-sm_mk-business.png
+111. images/logos/logo-sm_business-expo.png
+112. images/icons/icon-1-md_arrow-previous_dark-blue.svg
+113. images/icons/icon-1-tiny_earth_fc.svg
+114. images/icons/icon-1-md_earth_fc.svg
+115. images/icons/icon-4-sm_linkedIn_green.svg
+116. images/icons/icon-1-sm_arrow-previous_dark-blue.svg
+117. images/icons/icon-4-sm_facebook_aquamarine.svg
+118. images/icons/icon-4-sm_instagram_green.svg
+119. images/icons/icon-4-sm_twitter_green.svg
+120. images/icons/icon-5-md_pets_dark-blue.svg
+121. images/icons/icon-5-sm_call_green.svg
+122. images/icons/icon-1-md_arrow_dark-blue.svg
+123. images/icons/icon-1-sm_arrow_silver.svg
+124. images/icons/icon-5-sm_chat_green.svg
+125. images/icons/icon-3-sm_email_dark-blue.svg
+126. images/icons/icon-4-sm_youtube_dark-blue.svg
+127. images/icons/icon-4-sm_youtube_green.svg
+128. images/icons/icon-1-md_long-arrow_dark-blue.svg
+129. images/icons/icon-3-sm_tea_white.svg
+130. images/icons/icon-4-sm_twitter_dark-blue.svg
+131. images/icons/icon-4-md_twitter_green.svg
+132. images/icons/icon-2-sm_price-translation_fc.svg
+133. images/icons/icon-4-sm_facebook_green.svg
+134. images/icons/icon-4-sm_linkedin_aquamarine.svg
+135. images/icons/icon-3-md_bird_dark-blue.svg
+136. images/icons/icon-6-md_circle_aquamarine.svg
+137. images/icons/icon-4-sm_twitter_aquamarine.svg
+138. images/icons/icon-4-sm_linkedIn_dark-blue.svg
+139. images/icons/icon-4-sm_instagram_dark-blue.svg
+140. images/icons/icon-2-sm_qoute_fc.svg
+141. images/icons/icon-1-md_arrow-next_dark-blue.svg
+142. images/icons/icon-3-sm_phone_dark-blue.svg
+143. images/icons/icon-1-sm_arrow-next_dark-blue.svg
+144. images/icons/icon-1-sm_arrow_green.svg
+145. images/icons/icon-2-sm_calculator_fc.svg
+146. images/icons/icon-6-md_circle_dark-blue.svg
+147. images/icons/icon-1-tn_arrow_white.svg
+148. images/icons/icon-4-sm_facebook_dark-blue.svg
+149. images/icons/icon-1-tn_arrow_dark-blue.svg
+150. site-elements/forms/get-a-quote.html
+151. site-elements/stories/
+152. site-elements/stories/story.html
+153. site-elements/stories/wp-html-editor.html
+154. scripts/jquery.fitvids.min.js
+155. scripts/slick.js
+156. scripts/jquery.fitvids.js
+157. scripts/jquery.slick.min.js
+158. scripts/jquery.atlas-translations.min.js
+159. scripts/slick.min.js
+160. fonts/icomoon.woff
+161. !build/release-map.csv
+162. !build/material/icomoon/
+163. !build/material/icomoon/demo-files/
+164. !build/material/icomoon/demo-files/demo.css
+165. !build/material/icomoon/demo-files/demo.js
+166. !build/material/icomoon/style.css
+167. !build/material/icomoon/selection.json
+168. !build/material/icomoon/Read Me.txt
+169. !build/material/icomoon/demo.html
+170. !build/material/icomoon/fonts/
+171. !build/material/icomoon/fonts/icomoon.ttf
+172. !build/material/icomoon/fonts/icomoon.woff
+173. !build/material/icomoon/fonts/icomoon.eot
+174. !build/material/icomoon/fonts/icomoon.svg
+
+### Modified
+
+1. in-house.html
+2. meet-the-team-inner.html
+3. client-stories-inner.html
+4. blog.html
+5. home.html
+6. work-as-a-placement.html
+7. sectors-inner.html
+8. about.html
+9. privacy-policy.html
+10. css/editor-style.concat.css
+11. css/wp-editor-styles.css
+12. css/styles.css
+13. css/wp-editor-styles.concat.css
+14. css/components/site-footer.css
+15. css/components/classes.css
+16. css/components/site-base.css
+17. css/components/site-layout.css
+18. css/components/site-header.css
+19. css/components/site-navigation.css
+20. css/components/story.css
+21. css/components/buttons.css
+22. css/components/grids.css
+23. css/components/fonts.css
+24. css/components/components.css
+25. css/components/icons.css
+26. css/components/site-forms.css
+27. css/styles.min.css
+28. css/editor-style.css
+29. less/styles.less
+30. less/_extend-map.less
+31. less/components/components.less
+32. less/components/grids.less
+33. less/components/site-header.less
+34. less/components/site-footer.less
+35. less/components/fonts.less
+36. less/components/_library/site-banner.less
+37. less/components/icons-definitions.less
+38. less/components/buttons-definitions.less
+39. less/components/site-forms.less
+40. less/components/site-layout.less
+41. less/components/site-navigation.less
+42. less/site/_story.less
+43. less/site/_variables.less
+44. less/site/_classes.less
+45. meet-our-pets.html
+46. images/pictures/pic-bn_atlas.jpg
+47. images/pictures/pic-lg_atlas.jpg
+48. images/logos/logo-sm_popdance.png
+49. images/logos/logo-sm_joanne-and-eduardo.png
+50. sectors.html
+51. sitemap.html
+52. site-elements/site-header.html
+53. site-elements/buttons.html
+54. site-elements/site-footer.html
+55. site-elements/site-banner.html
+56. site-elements/site-navigation.html
+57. site-elements/icons.html
+58. site-elements/page-banner.html
+59. work-with-us.html
+60. 404.html
+61. supplier-faqs.html
+62. meet-the-team.html
+63. resources.html
+64. cookie-policy.html
+65. !signature
+66. scripts/jquery.atlas-translations.js
+67. our-community.html
+68. courses-for-linguists.html
+69. work-as-a-freelancer.html
+70. client-stories.html
+71. services.html
+72. events.html
+73. !build/changelog-history.txt
+74. build-info.txt
+75. blog-inner.html
+76. services-inner.html
+
+### Excluded
+
+1. !build/root-release-map.csv
+
+### Removed
+
+1. images/pictures/pic-md_tommy.jpg
+2. images/pictures/pic-md_clare-suttie .jpg
+3. images/pictures/pic-md_charlie-reston.jpg
+4. images/pictures/pic-md_claude.jpg
+5. images/pictures/pic-md_chickens.jpg
+6. images/pictures/pic-md_pip.jpg
+7. images/pictures/pic-md_joanna-maciejewska.jpg
+8. images/pictures/pic-md_jim-hearn.jpg
+9. images/pictures/pic-md_stefania-orlotti.jpg
+10. images/pictures/pic-bn_bonnie.jpg
+11. images/pictures/pic-md_james-martin.jpg
+12. images/pictures/pic-md_anna-davis.jpg
+13. images/pictures/pic-md_shadow.jpg
+14. images/pictures/pic-md_clare-suttie.jpg
+15. images/pictures/pic-md_advertising_circle.jpg
+16. images/logos/logo-lg_atlas_fullcolor.svg
+17. images/icons/icon-4-sm_ facebook_green.svg
+18. images/icons/icon-4-sm_ instagram_green.svg
+19. images/icons/icon-4-sm_ twitter_dark-blue.svg
+20. images/icons/icon-4-sm_ twitter_aquamarine.svg
+21. images/icons/icon-1-tiny_earth.svg
+22. images/icons/icon-2-sm_qoute_fullcolor.svg
+23. images/icons/icon-5-sm_ call_green.svg
+24. images/icons/icon-4-sm_ linkedIn_dark-blue.svg
+25. images/icons/icon-4-sm_ linkedin_aquamarine.svg
+26. images/icons/icon-4-sm_ youtube_dark-blue.svg
+27. images/icons/icon-5-sm_ chat_green.svg
+28. images/icons/icon-4-sm_ youtube_green.svg
+29. images/icons/icon-4-sm_ linkedIn_green.svg
+30. images/icons/icon-1-md_earth.svg
+31. images/icons/icon-2-sm_calculator_fullcolor.svg
+32. images/icons/icon-2-sm_price-transition_fullcolor.svg
+33. images/icons/icon-4-sm_ facebook_aquamarine.svg
+34. images/icons/icon-4-sm_ instagram_dark-blue.svg
+35. images/icons/icon-4-sm_ twitter_green.svg
+36. images/icons/icon-4-sm_ facebook_dark-blue.svg
+37. images/icons/icon-5-md_ pets_dark-blue.svg

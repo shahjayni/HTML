@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Get a Quote Today! - Forms | Atlas Translations</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<link rel="stylesheet" href="../../css/styles.css?1" type="text/css" media="all">
+<style type="text/css">
+
+
+
+</style>
+</head>
+<body>
+
+<div class="st-cont">
+
+	<main id="main" class="st-m">
+
+		<div class="pg-m-inn">
+
+			<div class="pg-m-bd">
+
+				<form class="f-gaq" id="f-gaq" method="post" action="request.php" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
+
+					<h2 class="h f-h">Get a quote today!</h2>
+
+					<h3 class="h f-sh">Upload your file here and we'll reply with a quote ASAP!</h3>
+
+					<div class="f-in">
+				
+						<fieldset class="fls">
+				
+							<legend class="h lg fls-h">Main Data</legend>
+						
+							<div class="bd fls-bd">
+				
+								<div class="fl fl-txt fl-first-name">
+					
+									<label for="f-gaq_first-name" class="in-plh">First name<a href="#f-gaq_ref1" class="f-ref-ind">*</a></label>
+									
+									<div class="bd fl-bd">
+				
+										<div class="m fl-m">					
+									
+											<input type="text" name="first-name" id="f-gaq_first-name" maxlength="255" placeholder="First name*" required>
+						
+										</div>
+					
+									</div>
+					
+								</div>
+					
+								<div class="fl fl-txt fl-last-name">
+					
+									<label for="f-gaq_last-name" class="in-plh">Last name</label>
+									
+									<div class="bd fl-bd">
+				
+										<div class="m fl-m">					
+									
+											<input type="text" name="last-name" id="f-gaq_last-name" maxlength="255" placeholder="Last name">
+						
+										</div>
+					
+									</div>
+					
+								</div>
+					
+								<div class="fl fl-eml fl-email-address">
+					
+									<label for="f-gaq_email-address" class="in-plh">Email address<a href="#f-gaq_ref1" class="f-ref-ind">*</a></label>
+									
+									<div class="bd fl-bd">
+				
+										<div class="m fl-m">					
+									
+											<input type="email" name="email-address" id="f-gaq_email-address" maxlength="255" placeholder="Email address*" required>
+						
+										</div>
+					
+									</div>
+					
+								</div>
+					
+								<div class="fl fl-eml fl-confirm-email-address">
+					
+									<label for="f-gaq_confirm-email-address" class="in-plh">Confirm email address<a href="#f-gaq_ref1" class="f-ref-ind">*</a></label>
+									
+									<div class="bd fl-bd">
+				
+										<div class="m fl-m">					
+									
+											<input type="email" name="confirm-email-address" id="f-gaq_confirm-email-address" maxlength="255" placeholder="Confirm email address*" required>
+						
+										</div>
+					
+									</div>
+					
+								</div>
+					
+								<div class="fl fl-tel fl-phone-number">
+					
+									<label for="f-gaq_phone-number" class="in-plh">Phone number</label>
+									
+									<div class="bd fl-bd">
+				
+										<div class="m fl-m">					
+									
+											<input type="tel" name="phone-number" id="f-gaq_phone-number" maxlength="255" placeholder="Phone number">
+						
+										</div>
+					
+									</div>
+					
+								</div>
+					
+								<div class="fl fl-txta fl-message">
+					
+									<label for="f-gaq_message" class="in-plh">Message</label>
+									
+									<div class="bd fl-bd">
+				
+										<div class="m fl-m">	
+					
+											<textarea name="message" id="f-gaq_message" rows="7" cols="30" placeholder="Message"></textarea>
+						
+										</div>
+					
+									</div>
+					
+								</div>
+
+								<!-- File -->
+
+								<div class="fl fl-file fl-file-1">
+
+									<div class="nt nt-">
+
+										<p>Upload your files here by dragging and dropping in this area or</p>
+
+									</div>
+
+									<details class="dtl" open>
+
+										<summary class="h smry">2 files uploaded</summary>
+
+										<ol>
+											<li>filename1.jpeg</li>
+											<li>filename2.png</li>
+										</ol>
+
+									</details>
+
+									<label for="file1" class="b in-file-b" data-content="Select files">
+										<span class="wpcf7-form-control-wrap file">
+											<input name="file" type="file" value="Select files" id="file1" class="in-file-b" accept="application/msword,text/plain,application/pdf" multiple data-max-file-size="2097152" data-msg-too-large="File is too large">
+										</span>
+									</label>
+
+								</div>
+
+							</div>
+					
+						</fieldset>
+						
+						<footer class="f-ft">
+				
+							<div class="mn f-mn f-ft-mn">
+							
+								<span class="h mn-h">Actions</span>
+							
+								<ul class="mn-l">
+									<li class="act-sbm"><button type="submit">Submit request</button></li>
+									<li class="act-rst"><button type="reset">Reset</button></li>
+								</ul>
+							
+							</div>
+							
+							<div class="nt f-nt f-ftn">
+				
+								<ol>
+									<li id="f-gaq_ref1"><span class="f-ref-ind">*</span> indicates required fields</li>
+									<li id="f-gaq_ref2"><span class="f-ref-ind">**</span> we will not share this information with 3-rd parties</li>
+								</ol>
+				
+							</div>
+				
+						</footer>
+					
+					</div>
+				
+				</form>
+
+			</div>
+
+		</div>
+
+	</main>
+
+</div>
+
+<div id="debug"></div>
+
+<script src="../../scripts/jquery.min.js"></script>
+<script src="../../scripts/jquery-ui.min.js"></script>
+<script src="../../scripts/jquery.validate.min.js"></script>
+<script src="../../scripts/jquery.atlas-translations.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+@import "../core/_variables";
+@import "../site/_variables";
+@import "../core/_mixins";
+@import (reference) "../core/_base";
+
+// Body
+
+body {
+
+	&.no-scrl {
+
+		overflow: hidden;
+	}
+}
+
+// Site Container
+
+.st-cont {
+
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
+
+	& when (@is-responsive = no) {
+
+		min-width: @container-max-width-all;
+	}
+}
+
+// Outwards
+
+.st-hd,
+.st-bn,
+.st-m,
+.pg-se,
+.st-ft {
+
+	&:extend( .outwards all );
+
+	& when (@is-responsive = yes) {
+
+		min-width: 320px;
+	}
+}
+
+// Inwards
+
+.st-hd-inn {
+	@media (max-width: 1100px) {
+		padding: 0;
+	}
+}
+
+.st-bn-inn,
+.pg-m-inn,
+.pg-se-inn,
+.st-ft-inn {
+	
+	&:extend( .inwards all );
+	margin: 0 auto;
+
+	@media @mp ( max-width: 480px ) {
+
+		@offset: unit( min(10, unit(@container-gutter)), px );
+		
+		padding-right: @offset;
+		padding-left: @offset;
+	}
+
+}

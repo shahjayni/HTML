@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?3vi5j7');
+  src:  url('fonts/icomoon.eot?3vi5j7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?3vi5j7') format('truetype'),
+    url('fonts/icomoon.woff?3vi5j7') format('woff'),
+    url('fonts/icomoon.svg?3vi5j7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-1-sm_arrow-next_dark-blue:before {
+  content: "\e900";
+}
+.icon-icon-1-sm_arrow-previous_dark-blue:before {
+  content: "\e901";
+}
+.icon-icon-1-md_arrow-next_dark-blue:before {
+  content: "\e902";
+}
+.icon-icon-1-md_arrow-previous_dark-blue:before {
+  content: "\e903";
+}
+.icon-Icon-5-sm_call_green:before {
+  content: "\e904";
+  color: #91de29;
+}
+.icon-Icon-5-sm_chat_green:before {
+  content: "\e905";
+  color: #91de29;
+}
+.icon-icon-1-md_long-arrow_dark-blue:before {
+  content: "\e906";
+}
+.icon-icon-1-tn_arrow_dark-blue:before {
+  content: "\e907";
+}
+.icon-Icon-4-sm_youtube_dark-blue:before {
+  content: "\e908";
+}
+.icon-Icon-4-sm_youtube_green:before {
+  content: "\e909";
+}
+.icon-Icon-4-sm_twitter_dark-blue:before {
+  content: "\e90a";
+}
+.icon-Icon-4-md_twitter_green:before {
+  content: "\e90b";
+}
+.icon-Icon-4-sm_linkedIn_dark-blue:before {
+  content: "\e90c";
+}
+.icon-Icon-4-sm_linkedIn_green:before {
+  content: "\e90d";
+}
+.icon-Icon-4-sm_instagram_dark-blue:before {
+  content: "\e90e";
+}
+.icon-Icon-4-sm_instagram_green:before {
+  content: "\e90f";
+}
+.icon-Icon-4-sm_facebook_dark-blue:before {
+  content: "\e910";
+}
+.icon-Icon-4-sm_facebook_green:before {
+  content: "\e911";
+}
+.icon-Icon-4-lg_twitter_green:before {
+  content: "\e912";
+}
+.icon-Icon-3-sm_phone_dark-blue:before {
+  content: "\e913";
+}
+.icon-Icon-3-sm_email_dark-blue:before {
+  content: "\e914";
+}
+.icon-icon-3-md_bird_dark-blue:before {
+  content: "\e915";
+}
+.icon-uniE916:before {
+  content: "\e916";
+}
+.icon-uniE917:before {
+  content: "\e917";
+}
+.icon-Icon-3-sm_accountancy_dark-blue:before {
+  content: "\e91f";
+}
+.icon-Icon-3-sm_advertising_dark-blue:before {
+  content: "\e920";
+}
+.icon-Icon-3-sm_blind_dark-blue:before {
+  content: "\e921";
+}
+.icon-Icon-3-sm_car_white:before {
+  content: "\e922";
+}
+.icon-Icon-3-sm_cv-clinic_dark-blue:before {
+  content: "\e923";
+}
+.icon-Icon-3-sm_deaf_dark-blue:before {
+  content: "\e924";
+}
+.icon-Icon-3-sm_editorial-services_dark-blue:before {
+  content: "\e925";
+}
+.icon-Icon-3-sm_education_dark-blue:before {
+  content: "\e926";
+}
+.icon-Icon-3-sm_healthcare_dark-blue:before {
+  content: "\e927";
+}
+.icon-Icon-3-sm_interpreting_white:before {
+  content: "\e929";
+}
+.icon-Icon-3-sm_legal_dark-blue:before {
+  content: "\e92a";
+}
+.icon-Icon-3-sm_pointer_white:before {
+  content: "\e92b";
+}
+.icon-Icon-3-sm_proofreading_white:before {
+  content: "\e92d";
+}
+.icon-Icon-3-sm_studio-work_dark-blue:before {
+  content: "\e92e";
+}
+.icon-Icon-3-sm_subtitling_white:before {
+  content: "\e930";
+}
+.icon-Icon-3-sm_technical-translations_dark-blue:before {
+  content: "\e931";
+}
+.icon-Icon-3-sm_train_white:before {
+  content: "\e932";
+}
+.icon-Icon-3-sm_transcription_white:before {
+  content: "\e934";
+}
+.icon-Icon-3-sm_translation_white:before {
+  content: "\e936";
+}
+.icon-Icon-3-sm_typesetting_white:before {
+  content: "\e938";
+}
+.icon-Icon-5-md_pets_dark-blue:before {
+  content: "\e946";
+}

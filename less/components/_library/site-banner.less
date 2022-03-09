@@ -1,0 +1,119 @@
+@import "../site/_variables";
+@import "../core/_variables";
+@import "../core/_mixins";
+@import "../_extend-map";
+@import (reference) "../../core/_base";
+
+
+.st-bn {
+
+	.pg-se-inn,
+	.pg-se-bd {
+
+		padding: 0;
+		margin: 0;
+		max-width: none;
+	}
+
+	.bg {
+
+		position: relative;
+		.pct-of(767px;1536px);
+		padding-top: @pct;
+
+		img {
+
+			position: absolute;
+			object-fit: cover;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			height: 100%;
+		}
+	}
+
+	.frg {
+
+		position: absolute;
+		top: calc(e('50%'));
+		transform: translateY(-50%);
+		z-index: 10;
+		max-width: 850px;
+		left: 50%;
+		margin-left: -626px;
+	}
+}
+
+
+
+.pg-bn {
+
+	.pg-se-inn,
+	.pg-se-bd {
+
+		padding: 0;
+		margin: 0;
+		max-width: none;
+	}
+
+	.bg {
+
+		position: relative;
+		.pct-of(468px;1536px);
+		padding-top: @pct;
+
+		img {
+
+			position: absolute;
+			object-fit: cover;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			height: 100%;
+		}
+	}
+}
+
+
+
+@media ( min-width: 1537px ) {
+
+	.st-bn {
+
+		.bg {
+
+			padding-top: 767px;
+		}
+	}
+
+	.pg-bn {
+
+		.bg {
+
+			padding-top: 468px;
+		}
+	}
+}
+
+
+
+@media ( max-width: 767px ) {
+
+	.st-bn {
+
+		.bg {
+
+			padding-top: 500px;
+		}
+	}
+}
+@media ( max-width: 568px ) {
+
+	.pg-bn {
+
+		.bg {
+
+			padding-top: 200px;
+		}
+	}
+}
