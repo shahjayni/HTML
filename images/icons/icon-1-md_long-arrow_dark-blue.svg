@@ -1,0 +1,10 @@
+<svg id="Arrow_link" data-name="Arrow link" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77.438" height="29.232" viewBox="0 0 77.438 29.232">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_129" data-name="Rectangle 129" width="77.438" height="29.232" transform="translate(-3 -3)" fill="#022334" stroke="#022334" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="Group_417" data-name="Group 417" transform="translate(3 3)" clip-path="url(#clip-path)">
+    <path id="Path_1193" data-name="Path 1193" d="M70.978,10.506,60.931.46a1.57,1.57,0,0,0-2.22,2.22l7.366,7.366H1.57a1.57,1.57,0,0,0,0,3.14H66.078l-7.366,7.367a1.57,1.57,0,0,0,2.22,2.22L70.978,12.727a1.57,1.57,0,0,0,0-2.22" transform="translate(0 0)" fill="#022334" stroke="#022334" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="2"/>
+  </g>
+</svg>

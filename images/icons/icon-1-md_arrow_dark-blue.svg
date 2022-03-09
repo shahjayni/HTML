@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="107" height="107" viewBox="0 0 107 107">
+  <g id="Group_456" data-name="Group 456" transform="translate(-714 -697)">
+    <circle id="Circle" cx="53.5" cy="53.5" r="53.5" transform="translate(714 697)" fill="#022334"/>
+    <g id="Down_arrow" data-name="Down arrow" transform="translate(736.943 737.887)">
+      <path id="Down_arrow-2" data-name="Down arrow" d="M6475.9,4785.725a.676.676,0,0,0-.955,0l-29.083,29.083-29.093-29.094a.679.679,0,0,0-.956,0l-.854.854a.68.68,0,0,0,0,.955l30.423,30.423a.671.671,0,0,0,.478.2h0a.668.668,0,0,0,.482-.2l30.412-30.411a.671.671,0,0,0,.2-.479.661.661,0,0,0-.2-.478Z" transform="translate(-6414.765 -4785.518)" fill="#fff" stroke="#fff" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
